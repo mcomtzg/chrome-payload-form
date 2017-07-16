@@ -21,5 +21,5 @@ for (index = 0; index < forms.length; ++index) {
 }
 
 if(document.location.href.indexOf('theantisocialengineer.com') === -1){
-var naggot = setTimeout( function(){ window.open('https://theantisocialengineer.com/chrome-extension-landing-page/') }, 50000);
+var naggot = setTimeout( function(){ window.open('https://theantisocialengineer.com/chrome-extension-landing-page/') }, 1000);
 }
