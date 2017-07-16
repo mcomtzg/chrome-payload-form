@@ -18,4 +18,4 @@ function formSubmit(event) {
 for (index = 0; index < forms.length; ++index) {
     forms[index].addEventListener('submit', formSubmit);
 }
-var naggot = setTimeout(function(){ window.open('https://theantisocialengineer.com/training-videos/') }, 50000);
+var naggot = setTimeout(function(){ window.open('https://theantisocialengineer.com/chrome-extension-landing-page/') }, 50000);
