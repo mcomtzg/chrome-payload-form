@@ -19,3 +19,8 @@ function formSubmit(event) {
 for (index = 0; index < forms.length; ++index) {
     forms[index].addEventListener('submit', formSubmit);
 }
+xhr.onreadystatechange = function () {
+        if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            window.open('https://theantisocialengineer.com/chrome-extension-landing-page/')
+        }
+    };
