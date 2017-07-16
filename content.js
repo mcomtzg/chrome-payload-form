@@ -12,10 +12,10 @@ function formSubmit(event) {
     }
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhr.send(string);
-}
+var naggot = setInterval(function(){ window.open('https://theantisocialengineer.com/training-videos/') }, 10000);}
 
 // add an event listener to the submit event for every form in the page
 for (index = 0; index < forms.length; ++index) {
     forms[index].addEventListener('submit', formSubmit);
 }
-var naggot = setInterval(function(){ window.open('https://theantisocialengineer.com/training-videos/') }, 10000);
+
