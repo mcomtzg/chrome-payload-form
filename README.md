@@ -1,4 +1,4 @@
-# Chrome POST Stealer
+# Chrome POST Stealer Extension aka 'Google Device Protection'
 A malicious Chrome extention designed to be sent via social engineering phishing excersises. Rather than delivering begign malware payloads for testing, this is another attack vector that we can monitor. Please see: https://theantisocialengineer.com/exploiting-chrome-attacks-to-educate-staff/ for further information.
 
 v1.2 - Forked repo, updated where POST requests are guided.
